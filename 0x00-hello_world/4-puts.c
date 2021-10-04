@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 
+
 /**
 
- * main -imprime un texto
+ * main - Prints a text
 
  *
 
- * devuelve: 0
+ * Return: Always 0 (Success)
 
  */
 
