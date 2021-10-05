@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main imprime el alfabeto
+ * main - Prints the alphabetic
  *
- * Return:retorna (0)
+ * Return: Always (Success)
  */
+
 int main(void)
 {
 	char Alf;
