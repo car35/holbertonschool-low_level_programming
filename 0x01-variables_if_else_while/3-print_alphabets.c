@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Imprime el alfabético en minúsculas y mayúsculas.
+ * main - Prints the alphabetic in lower and upper case
  *
- * Return: Retor siempre (0)
+ * Return: Always (Success)
  */
 int main(void)
 {
-	char Alf
+	char c;
 
-	for (Alf = 'a'; Alf <= 'z'; Alf++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(Alf);
+		putchar(c);
 	}
 
-	for (Alf = 'A'; Alf <= 'Z'; Alf++)
+	for (c = 'A'; c <= 'Z'; c++)
 	{
-		putchar(Alf);
+		putchar(c);
 	}
 
 	putchar('\n');
