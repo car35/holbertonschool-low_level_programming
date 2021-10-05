@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints all single digit numbers of base 10 starting from 0,
- *        only using putchar and without char variables.
+ * main - Imprime todos los números de un solo dígito de base 10 a partir de 0,
+ *        solo usando putchar y sin variables char.
  *
  * Return: Always 0.
  */
