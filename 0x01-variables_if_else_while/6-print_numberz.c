@@ -6,11 +6,16 @@
 int main(void)
 {
 char Alf;
+  
 Alf = 'z';
+  
 while (Alf >= 'a')
 {
-putchar(Alf);
-Alf--;
+  
+putchar (Alf);
+  
+Alf --;
+  
 }
 putchar('\n');
 return (0);
