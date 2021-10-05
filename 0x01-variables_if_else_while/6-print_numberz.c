@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Imprime todos los números de un solo dígito de base 10 a partir de 0.
+ * main - Prints all single digit numbers of base 10 starting from 0,
+ *        only using putchar and without char variables.
  *
- * Return: Siempre retorna 0.
+ * Return: Always 0.
  */
 int main(void)
 {
-	int base;
+	int num;
 
-	for (base = 0; base < 10; base++)
-		putchar((base % 10) + '0');
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
 	putchar('\n');
 
