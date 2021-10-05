@@ -1,3 +1,8 @@
+/*
+ * File: 7-print_tebahpla.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /**
@@ -7,10 +12,10 @@
  */
 int main(void)
 {
-	char letter;
+	char Alf;
 
-	for (letter = 'z'; letter >= 'a'; letter--)
-		putchar(letter);
+	for (Alf = 'z'; Alf >= 'a'; Alf--)
+		putchar(Alf);
 
 	putchar('\n');
 
