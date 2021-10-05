@@ -1,19 +1,21 @@
+/*
+ * File: 7-print_tebahpla.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /**
-  * main - Prints the numbers since 0 to 9
-  *
-  * Return: Always (Success)
-  */
-
+ * main - Prints the lowercase alphabet in reverse.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	char c;
+	char letter;
 
-	for (c = 'z'; c >= 'a'; c--)
-	{
-		putchar(c);
-	}
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
 
 	putchar('\n');
 
