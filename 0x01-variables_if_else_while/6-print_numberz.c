@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - main function logra  mostrar el alfabeto alreves de (z) a (a)
- * Return:siemore retorna (0).
+ * main - main function manages to display the alphabet backwards from (z) to (a)
+ * Return:always (0).
  **/
 int main(void)
 {
