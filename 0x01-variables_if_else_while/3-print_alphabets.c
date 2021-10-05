@@ -1,49 +1,25 @@
 #include <stdio.h>
 
-
-
 /**
-
- * main - Prints the alphabetic in lower and upper case
-
+ * main - Imprime el alfabético en minúsculas y mayúsculas.
  *
-
- * Return: Always (Success)
-
+ * Return: Retor siempre (0)
  */
-
 int main(void)
-  
 {
-  
-  char c;
-  
+	char Alf
 
-  
-  for (c = 'a'; c <= 'z'; c++)
-    
-    {
-      
-      putchar(c);
-      
-    }
-  
+	for (Alf = 'a'; Alf <= 'z'; Alf++)
+	{
+		putchar(Alf);
+	}
 
-  
-  for (c = 'A'; c <= 'Z'; c++)
-    
-    {
-      
-      putchar(c);
-      
-    }
-  
+	for (Alf = 'A'; Alf <= 'Z'; Alf++)
+	{
+		putchar(Alf);
+	}
 
-  
-  putchar('\n');
-  
+	putchar('\n');
 
-  
-  return (0);
-  
+	return (0);
 }
