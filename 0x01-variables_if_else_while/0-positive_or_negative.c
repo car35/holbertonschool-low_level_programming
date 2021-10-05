@@ -3,28 +3,28 @@
 #include <stdio.h>
 
 /**
- * mmain - Imprime nmumero positivos, zero y negativos
+ * main - Imprime nmumero positivos, zero y negativos
  *
- * Return: siempre retorna 0
+ * Return: siempre retorna 
  */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - (RAND_MAX /2);
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{
-		printf(n,"%d es positivo\n");
+		printf("%d es positivo\n", n);
 	}
 	else if (n == 0)
 	{
-		printf(n,"%d Cero o Nuetro\n");
+		printf("%d es 0, o neutro\n", n);
 	}
 	else
 	{
-		printf(n,"%d es negativo\n");
+		printf("%d es negativo\n", n);
 	}
 
 	return (0);
