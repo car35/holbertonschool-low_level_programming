@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main function logra  mostar el alfabeto alreves de (z) a (a)
+ * main - main function logra  mostrar el alfabeto alreves de (z) a (a)
  * Return:siemore retorna (0).
  **/
 int main(void)
