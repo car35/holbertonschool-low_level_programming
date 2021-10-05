@@ -1,56 +1,31 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
-
 /**
-
- * main - Imprime nmumero positivos, zero y negativos
-
+ * main - Prints if number is positive, zero or negative
  *
-
- * Return: siempre retorna 
-
+ * Return: Always (Success)
  */
-
 int main(void)
-  
 {
-  
-  int n;
+	int n;
 
-  
-  srand(time(0));
-  
-  n = rand() - RAND_MAX / 2;
-  
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-  if (n > 0)
-    
-    {
-      
-      printf(n,"%d es positivo\n");
-      
-    }
-  
-  else if (n == 0)
-    
-    {
-      
-      printf(n,"%d Cero\n");
-      
-    }
-  
-  else
-    
-    {
-      
-      printf(n,"%d es negativo\n");
-      
-    }
-   
-  return (0);
-  
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is negative\n", n);
+	}
+
+	return (0);
 }
