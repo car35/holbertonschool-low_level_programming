@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Imprime nmumero positivos, zero y negativos
+ * main - Prints if number is positive, zero or negative
  *
- * Return: siempre retorna 
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -16,15 +16,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%d es positivo\n", n);
+		printf("%d positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%d es 0, o neutro\n", n);
+		printf("%d zero\n", n);
 	}
 	else
 	{
-		printf("%d es negativo\n", n);
+		printf("%d negative\n", n);
 	}
 
 	return (0);
