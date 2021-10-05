@@ -1,23 +1,18 @@
-/*
- * File: 7-print_tebahpla.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
-
 /**
- * main - Prints the lowercase alphabet in reverse.
- *
- * Return: Always 0.
- */
+ * main - main function logra  mostar el alfabeto alreves de (z) a (a)
+ * Return:siemore retorna (0).
+ **/
 int main(void)
 {
-	char letter;
+char Alf;
+Alf = 'z';
 
-	for (letter = 'z'; letter >= 'a'; letter--)
-		putchar(letter);
-
-	putchar('\n');
-
-	return (0);
+while (Alf >= 'a')
+{
+putchar(Alf);
+Alf--;
+}
+putchar('\n');
+return (0);
 }
