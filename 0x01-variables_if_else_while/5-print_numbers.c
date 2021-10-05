@@ -1,39 +1,20 @@
 #include <stdio.h>
 
-
-
 /**
-
- * main - Prints the numbers since 0 to 9
-
- *
-
- * Return: Always (Success)
-
- */
-
+  * main - Imprime del 1 al 9 con salto de line
+  *
+  * Return: siempre retorna (0)
+  */
 int main(void)
-  
 {
-  
-  char n;
-  
+	char Nun;
 
-  
-  for (n = '0'; n <= '9'; n++)
-    
-    {
-      
-      putchar(n);
-      
-    }
-  
+	for (Nun = '0'; Nun <= '9'; Nun++)
+	{
+		putchar(Nun);
+	}
 
-  
-  putchar('\n');
-  
+	putchar('\n');
 
-  
-  return (0);
-  
+	return (0);
 }
