@@ -1,33 +1,17 @@
 #include <stdio.h>
 
-
-
 /**
-
- * main - Prints the alphabetic
-
+ * main imprime el alfabeto
  *
-
- * Return: Always (Success)
-
+ * Return:retorna (0)
  */
-
 int main(void)
-  
 {
-  
-  char c;
-  
+	char Alf;
 
-  
-  for (c = 'a'; c <= 'z'; c++)
-    
-    putchar(c);
-  
+	for (Alf = 'a'; Alf <= 'z'; Alf++)
+		putchar(Alf);
 
-  
-  putchar('\n');
-  
-  return (0);
-  
+	putchar('\n');
+	return (0);
 }
