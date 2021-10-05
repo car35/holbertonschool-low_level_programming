@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -main function manages to display the alphabet backwards from (z) to (a)
+ * main - main function manages to display the alphabet backwards from (z) to (a)
  * Return:always(0).
  **/
 int main(void)
