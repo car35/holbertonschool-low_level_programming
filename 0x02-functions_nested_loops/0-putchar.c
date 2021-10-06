@@ -8,7 +8,7 @@ int main(){
   
   char Tx[11]="_putchar";
   
-  int i=0;                                                                                                                                                                                            
+  int i=0; 
   for(i=0;i<11;i++){ 
     
     _putchar(Tx[i]); 
@@ -17,5 +17,5 @@ int main(){
     
   }   
   
-  return 0;                                                                                                                                                                                                                                                
+  return 0;
 }
