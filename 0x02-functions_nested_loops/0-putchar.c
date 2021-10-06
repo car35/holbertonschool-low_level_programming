@@ -1,4 +1,4 @@
- #include <stdio.h>
+ #include <main.h>
 
 /**main -funtion main imprimi la palabra putchar 
 
