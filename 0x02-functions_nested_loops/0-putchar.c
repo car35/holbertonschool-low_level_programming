@@ -1,28 +1,27 @@
 #include "main.h"
 
-
 /**
-
-
- * main -funtion main imprimi la palabra putchar 
+ * main - Entry point
  *
- * return: devuelve el valor cero siempre
+ * Return: Always 0 (Success)
+ **/
 
- */
-
-
-int main(){
-   
-  char Tx[8]="_putchar\n";
+ int main(){
   
-  int i=0;
- 
-  for(i=0;i<8;i++){
+ char Tx[11]="_putchar";
+ int i=0;
+  
+  for(i=0;i<11;i++){
+
     
-    putchar(Tx[i]);
+    _putchar(Tx[i]);
+    
+    _putchar('\n');
+    
+    _putchar('\n');
       
   }
-  
-  return 0;
    
+  return 0;
+  
 }
