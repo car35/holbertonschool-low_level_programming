@@ -19,7 +19,8 @@ int main(){
                                                                                                                                                                                                 
   for(i=0;i<8;i++){                                                                                                                                                                             
                                                                                                                                                                                                 
-    putchar(Tx[i]);                                                                                                                                                                             
+    putchar(Tx[i]); 
+    putchar("\n");
                                                                                                                                                                                                 
   }                                                                                                                                                                                             
                                                                                                                                                                                                 
