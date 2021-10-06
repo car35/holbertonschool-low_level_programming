@@ -6,9 +6,9 @@
 **/
 int main(void)
 {
-char Tx[11] = "_putchar\n";
+char Tx[9] = "_putchar\n";
 int i = 0;
-for (i = 0; i <= 11; i++)
+for (i = 0; i <= 9; i++)
 {
 _putchar (Tx[i]);
 }
