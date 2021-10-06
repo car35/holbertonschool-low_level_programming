@@ -10,16 +10,16 @@
                                                                                                                                                                                                 
  */                                                                                                                                                                                             
                                                                                                                                                                                                 
-                                                                                                                                                                                                
 int main(){                                                                                                                                                                                     
                                                                                                                                                                                                 
-  char Tx[8]="_putchar\n";                                                                                                                                                                      
+  char Tx[11]="_putchar";                                                                                                                                                                      
                                                                                                                                                                                                 
   int i=0;                                                                                                                                                                                      
                                                                                                                                                                                                 
-  for(i=0;i<8;i++){                                                                                                                                                                             
+  for(i=0;i<11;i++){                                                                                                                                                                             
                                                                                                                                                                                                 
     putchar(Tx[i]); 
+    putchar("\n");
     putchar("\n");
                                                                                                                                                                                                 
   }                                                                                                                                                                                             
