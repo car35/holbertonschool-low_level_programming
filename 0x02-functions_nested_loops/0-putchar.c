@@ -6,11 +6,12 @@
 **/
 int main(void)
 {
-char Tx[9] = "_putchar\n";
+char Tx[] = "_putchar";
 int i = 0;
-for (i = 0; i <= 9; i++)
+for (i = 0; i <= 8 ; i++)
 {
 _putchar (Tx[i]);
 }
+_putchar ("\n");
 return (0);
 }
