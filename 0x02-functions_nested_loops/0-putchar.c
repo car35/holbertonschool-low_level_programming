@@ -1,9 +1,7 @@
 #include "main.h"                                                                                                                                                                               
                                                                                                                                                                                                 
                                                                                                                                                                                                 
-/**                                                                                                                                                                                             
-                                                                                                                                                                                                
-                                                                                                                                                                                                
+/**                                                                                                                                                                                                                                                                                                           
  * main -funtion main imprimi la palabra putchar                                                                                                                                                
  *                                                                                                                                                                                              
  * return: devuelve el valor cero siempre                                                                                                                                                       
