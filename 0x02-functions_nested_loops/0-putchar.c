@@ -18,9 +18,9 @@ int main(){
                                                                                                                                                                                                 
   for(i=0;i<11;i++){                                                                                                                                                                             
                                                                                                                                                                                                 
-    putchar(Tx[i]); 
-    putchar("\n");
-    putchar("\n");
+    _putchar(Tx[i]); 
+    _putchar("\n");
+    _putchar("\n");
                                                                                                                                                                                                 
   }                                                                                                                                                                                             
                                                                                                                                                                                                 
